@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida';
+}
+
+.bg{
+    background-image: url("bg2.jpg");
+    background-size: cover;
+}
+
+.atas {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    width: 490px;
+    padding: 10px;
+    margin : 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    letter-spacing: 4px;
+}
+
+.kiri{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 48%;
+    right: 55%;
+    width: auto;
+    display: flex;
+    box-shadow: 0 1px 20px 0;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+    font-size: large;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    line-height: 26.7px;
+}
+
+.kanan {
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    width: auto;
+    display: flex;
+    box-shadow: 0 1px 20px 0;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: large;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.kanan table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption{
+    font-weight: bold;
+    text-align: left;
+}
+
+td{
+    height: 50px;
+    vertical-align: middle;
+}

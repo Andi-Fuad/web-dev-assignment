@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida';
+}
+
+.bg{
+    background-image: url("bg1.jpg") ;
+}
+
+.bagian{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    display: flex;
+    box-shadow: 0 1px 20px 0;
+}
+
+.bagian .kiri{
+    width: 35%;
+    background: url("bgfoto2.jpg");
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff 
+  }
+
+.bagian .kiri img{
+    z-index: 1;
+    height: 100%; 
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.bagian .kanan{
+    width: 65%;
+    background: #fff;
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bagian .kanan h2{
+    text-align: center;
+    letter-spacing: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.bagian .kanan .p1{
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 15px;
+    margin-left: 3px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.bagian .kanan p{
+    font-family:'Courier New', Courier, monospace;
+    margin: 10px;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.bagian .kanan img{
+    width: 30px;
+    height: 30px;
+}
